@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  background-image: url("./images/mountain-min.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center top;
+  .container {
+    max-width: 90%;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    .logo {
+      max-width: 70px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .social-icons {
+      ul {
+        padding: 0;
+        list-style: none;
+        li {
+          display: inline-block;
+          .icons {
+            height: 30px;
+            width: 30px;
+            display: block;
+            background-color: #e45678;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  .main-area {
+    h1 {
+      color: #546a8e;
+      text-align: center;
+      font-size: 60px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+  }
+  .form-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    .form-group {
+      max-width: 0 0 20%;
+      flex: 0 0 20%;
+      label {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      .input {
+        min-height: 35px;
+        border: 0;
+        border-radius: 2px;
+        width: 100%;
+      }
+    }
+  }
+}

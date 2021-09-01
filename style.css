@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  background-image: url("./images/mountain-min.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center top;
+}
+
+.wrapper .container {
+  max-width: 90%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.wrapper .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+}
+
+.wrapper .header .logo {
+  max-width: 70px;
+}
+
+.wrapper .header .logo img {
+  max-width: 100%;
+}
+
+.wrapper .header .social-icons ul {
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper .header .social-icons ul li {
+  display: inline-block;
+}
+
+.wrapper .header .social-icons ul li .icons {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background-color: #e45678;
+  border-radius: 50%;
+}
+
+.wrapper .main-area h1 {
+  color: #546a8e;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.wrapper .form-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.wrapper .form-holder .form-group {
+  max-width: 0 0 20%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+}
+
+.wrapper .form-holder .form-group label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.wrapper .form-holder .form-group .input {
+  min-height: 35px;
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
